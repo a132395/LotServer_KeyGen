@@ -1,7 +1,7 @@
 {
   "version": 2,
   "builds": [
-    { "src": "*.php", "use": "@now/php" }
+    { "src": "/(.*)", "use": "@now/php" }
   ],
   "routes": [
     { "src": "/(.*)",  "dest": "/keygen.php" }
